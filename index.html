@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="Slide11.png">
+    <script src="arrow.js"></script>
+    <script src="mouseover.js"></script>
+    <style>
+        .pulse3 {
+            animation: pulse-animation 1.5s infinite;
+        }
+
+        @keyframes pulse-animation {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body id="index">
+
+    <div class="navbar">
+        <a href="25.html" class="prev" style="width: 44px;">← 25</a>
+        <span class="page" style="width: 44px;">MENU</span>
+        <a href="01.html" class="next" style="width: 44px; text-align: right;">1 →</a>
+    </div>
+
+    <div class="gridindex">
+        <div class="grid">
+            <div class="grid-container">
+                <a href="01.html" class="grid-item index1"><span class="indextext">1</span></a>
+                <a href="02.html" class="grid-item index2"><span class="indextext">2</span></a>
+                <a href="03.html" class="grid-item index3"><span class="indextext">3</span></a>
+                <a href="04.html" class="grid-item index4"><span class="indextext">4</span></a>
+                <a href="05.html" class="grid-item index5"><span class="indextext">5</span></a>
+                <a href="06.html" class="grid-item index6"><span class="indextext">6</span></a>
+                <a href="07.html" class="grid-item index7"><span class="indextext">7</span></a>
+                <a href="08.html" class="grid-item index8"><span class="indextext">8</span></a>
+                <a href="09.html" class="grid-item index9"><span class="indextext">9</span></a>
+                <a href="10.html" class="grid-item index10"><span class="indextext">10</span></a>
+                <a href="11.html" class="grid-item index11"><span class="indextext">11</span></a>
+                <a href="12.html" class="grid-item index12"><span class="indextext">12</span></a>
+                <a href="13.html" class="grid-item index13"><span class="indextext">13</span></a>
+                <a href="14.html" class="grid-item index14"><span class="indextext">14</span></a>
+                <a href="15.html" class="grid-item index15"><span class="indextext">15</span></a>
+                <a href="16.html" class="grid-item index16"><span class="indextext">16</span></a>
+                <a href="17.html" class="grid-item index17"><span class="indextext">17</span></a>
+                <a href="18.html" class="grid-item index18"><span class="indextext">18</span></a>
+                <a href="19.html" class="grid-item index19"><span class="indextext">19</span></a>
+                <a href="20.html" class="grid-item index20"><span class="indextext">20</span></a>
+                <a href="21.html" class="grid-item index21"><span class="indextext">21</span></a>
+                <a href="22.html" class="grid-item index22"><span class="indextext">22</span></a>
+                <a href="23.html" class="grid-item index23"><span class="indextext">23</span></a>
+                <a href="24.html" class="grid-item index24"><span class="indextext">24</span></a>
+                <a href="25.html" class="grid-item index25"><span class="indextext">25</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box3">
+            <div class="animated3 text3 pulse3">TRY NAVIGATING WITH JUST THE ARROW KEYS!</div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code to add the pulse animation class to the text element
+        const pulseText = document.querySelector('.pulse3');
+        pulseText.classList.add('pulse3');
+    </script>
+</body>
+
+</html>
